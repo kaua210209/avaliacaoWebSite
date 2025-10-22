@@ -87,3 +87,19 @@ a {
     width: 250px;
     height: auto;
 }
+
+.email {
+    width: 640px;
+}
+
+.senha {
+    width: 640px;
+}
+
+.cidade {
+    width: 640px;
+}
+
+.estado {
+    width: 410px;
+}
