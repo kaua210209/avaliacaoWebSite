@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Marques jóias</title>
+</head>
+<body>
+
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img class="imgNav" src="favicon/logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobre.html">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Login</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="Pesquisar">
+        <input class="form-control me-2" type="Pesquisar" placeholder="Pesquisar" aria-label="Pesquisar"/>
+        <button class="btn btn-dark" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    
+   <div class="login-page bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                  <h3 class="mb-3">Faça login</h3>
+                    <div class="bg-white shadow rounded">
+                        <div class="row">
+                            <div class="col-md-7 pe-0">
+                                <div class="form-left h-100 py-5 px-5">
+                                    <form action="" class="row g-4">
+                                            <div class="col-12">
+                                                <label>Nome<span class="text-danger">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class="bi bi-person-fill"></i></div>
+                                                    <input type="text" class="form-control" placeholder="Enter Username">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <label>Senha<span class="text-danger">*</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-text"><i class="bi bi-lock-fill"></i></div>
+                                                    <input type="text" class="form-control" placeholder="Enter Password">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                                                    <label class="form-check-label" for="inlineFormCheck">Lembre de mim</label>
+                                                </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                <button type="submit" class="btn entrar btn-dark px-4 float-end">Entrar</button>
+                                                </div>
+                                             
+                                            <button class="btn btn-dark">Login com Google <img class="imgLogin" src="favicon/pesquisa.png" alt=""></button>
+                                            <button class="btn btn-dark">Login com Facebook <img class="imgLogin" src="favicon/facebook2.png" alt=""></button>
+                                          </form>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ps-0 d-none d-md-block">
+                                <div class="form-right h-100 bg-dark text-white text-center pt-5">
+                                    <i class="bi bi-bootstrap"></i>
+                                    <h2 class="fs-1">Seja bem-vindo a Marques Jóias</h2>
+                                    <img class="logoImgS" src="favicon/logo.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-end text-secondary mt-3">Marques Jóias</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
